@@ -1,12 +1,12 @@
 #define RX 10
 #define TX 11
 #define LED_LISTO 13
-#define IN1 3
-#define IN2 4
-#define IN3 7
-#define IN4 8
-#define ENA1 5
-#define ENA2 6
+#define IN1 12
+#define IN2 6
+#define IN3 3
+#define IN4 4
+#define ENA1 9
+#define ENA2 5
 
 #include <SoftwareSerial.h>
 SoftwareSerial BT(RX, TX);
