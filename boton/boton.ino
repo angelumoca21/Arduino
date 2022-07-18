@@ -2,19 +2,19 @@ int boton = 0;
 
 void setup()
 {
-  pinMode(2, INPUT);
-  pinMode(13, OUTPUT);
+  pinMode(7, INPUT);
+  pinMode(8, OUTPUT);
 }
 
 void loop()
 {
-  boton = digitalRead(2);
+  boton = digitalRead(7);
   if (boton == HIGH)
   {
-    digitalWrite(13, 1);
+    digitalWrite(8, 1);
   }
   else
   {
-    digitalWrite(13, 0);
+    digitalWrite(8, 0);
   }
 }
